@@ -23,6 +23,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "scheme": "simfresh0925"
+    "scheme": "simfresh0925",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
